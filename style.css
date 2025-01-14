@@ -64,7 +64,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 100px;
+    margin: 130px;
 }
 
 .content-img {
@@ -86,7 +86,7 @@ body {
 }
 
 .content-caption {
-    font-size: larger;
+    font-size: large;
     color: #c18891;
     margin-top: 10px;
 }
@@ -128,6 +128,10 @@ body {
 
     .nav-link a {
         font-size: 20px;
+    }
+
+    .content-caption {
+        font-size: medium;
     }
 
     .footer {
