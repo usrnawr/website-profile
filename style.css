@@ -1,0 +1,156 @@
+*,
+html  {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 15px 50px;
+    background: linear-gradient(
+        rgb(180, 78, 95, 0.65),
+        rgb(255, 255, 255, 0.95)
+    ),
+    url(pink.jpg);
+    box-shadow: 0px 2px 5px rgb(180, 78, 95, 0.15);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.text-logo {
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 3px #4e1022, 0 0 15px rgba(180, 78, 95, 0.5);
+    
+}
+
+.nav-link ul{
+    display: flex;
+    text-align-last: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: all 0.3s;
+    text-shadow: 0px 0px 3px #4e1022, 0 0 15px rgba(180, 78, 95, 0.5);
+}
+
+.nav-link a:hover {
+    transform: scale(1.1);
+    color: rgb(180, 78, 95);
+    text-shadow: 0px 0px 3px #ffffff;
+}
+
+.nav-link a:active {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(50, 50, 50, 0.8), 0 0 25px rgba(220, 110, 120, 0.7), 0 0 5px rgba(255, 240, 240, 0.9);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+}
+
+
+.content-img {
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 3px 7px rgb(180, 78, 95, 0.35);
+    width: 135px;
+    height: 135px;
+}
+
+.content-link {
+    height: 135px;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.content-caption {
+    font-size: large;
+    color: #c18891;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 15px 50px;
+    background: linear-gradient(
+        rgb(255, 255, 255, 0.95),
+        rgb(180, 78, 95, 0.65)
+    ),
+    url(pink.jpg);
+    box-shadow: 0px -2px 5px rgb(180, 78, 95, 0.15);
+}
+
+.text-footer {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 3px #4e1022, 0 0 15px rgba(180, 78, 95, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .text-logo {
+        font-size: 40px;
+    }
+
+    .nav-link a {
+        font-size: 20px;
+    }
+
+    .content-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .content-link {
+        height: 100px;
+        width: 100px;
+    }
+
+    .content-caption {
+        font-size: medium;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+    .text-footer {
+        font-size: 25px;
+    }
+}
