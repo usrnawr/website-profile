@@ -114,7 +114,7 @@ body {
     text-shadow: 1px 1px 3px #4e1022, 0 0 15px rgba(180, 78, 95, 0.5);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1280px) {
     .navbar {
         justify-content: center;
         flex-direction: column;
