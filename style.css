@@ -130,24 +130,6 @@ body {
         font-size: 20px;
     }
 
-    .content {
-        margin: 100px;
-    }
-
-    .content-img {
-        width: 130px;
-        height: 130px;
-    }
-
-    .content-link {
-        height: 130px;
-        width: 130px;
-    }
-
-    .content-caption {
-        font-size: medium;
-    }
-
     .footer {
         justify-content: center;
     }
