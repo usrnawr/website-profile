@@ -15,11 +15,11 @@ body {
     height: 100px;
     padding: 15px 50px;
     background: linear-gradient(
-        rgb(180, 78, 95, 0.65),
-        rgb(255, 255, 255, 0.95)
+        rgba(180, 78, 95, 0.65),
+        rgba(255, 255, 255, 0.95)
     ),
     url(pink.jpg);
-    box-shadow: 0px 2px 5px rgb(180, 78, 95, 0.15);
+    box-shadow: 0px 2px 5px rgba(180, 78, 95, 0.15);
 }
 
 .logo {
@@ -31,10 +31,9 @@ body {
     font-size: 60px;
     color: white;
     text-shadow: 1px 1px 3px #4e1022, 0 0 15px rgba(180, 78, 95, 0.5);
-    
 }
 
-.nav-link ul{
+.nav-link ul {
     display: flex;
     text-align-last: center;
     list-style: none;
@@ -68,11 +67,10 @@ body {
     margin: 100px;
 }
 
-
 .content-img {
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 0px 3px 7px rgb(180, 78, 95, 0.35);
+    box-shadow: 0px 3px 7px rgba(180, 78, 95, 0.35);
     width: 135px;
     height: 135px;
 }
@@ -100,11 +98,11 @@ body {
     height: 100px;
     padding: 15px 50px;
     background: linear-gradient(
-        rgb(255, 255, 255, 0.95),
-        rgb(180, 78, 95, 0.65)
+        rgba(255, 255, 255, 0.95),
+        rgba(180, 78, 95, 0.65)
     ),
     url(pink.jpg);
-    box-shadow: 0px -2px 5px rgb(180, 78, 95, 0.15);
+    box-shadow: 0px -2px 5px rgba(180, 78, 95, 0.15);
 }
 
 .text-footer {
@@ -114,7 +112,7 @@ body {
     text-shadow: 1px 1px 3px #4e1022, 0 0 15px rgba(180, 78, 95, 0.5);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 960px) {
     .navbar {
         justify-content: center;
         flex-direction: column;
@@ -132,14 +130,18 @@ body {
         font-size: 20px;
     }
 
+    .content {
+        margin: 100px;
+    }
+
     .content-img {
-        width: 100vh;
-        height: 100vh;
+        width: 100px;
+        height: 100px;
     }
 
     .content-link {
-        height: 100vh;
-        width: 100vh;
+        height: 100px;
+        width: 100px;
     }
 
     .content-caption {
